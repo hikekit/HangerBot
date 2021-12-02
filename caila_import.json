@@ -16,6 +16,14 @@
     "shared" : false
   },
   "intents" : [ {
+    "id" : 3980487,
+    "path" : "/Давай поиграем",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ "играть", "хочу играть", "давай поиграем" ],
+    "priority" : 0
+  }, {
     "id" : 3972696,
     "path" : "/пока",
     "enabled" : true,
@@ -32,6 +40,14 @@
     "phrases" : [ {
       "text" : "привет"
     } ],
+    "priority" : 0
+  }, {
+    "id" : 3980429,
+    "path" : "/Согласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ "хочу", "согласен", "начнем", "да" ],
     "priority" : 0
   } ],
   "entities" : [ ],

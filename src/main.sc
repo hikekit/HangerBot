@@ -1,7 +1,7 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
   
-require: wordData.csv
+require: wordsData.csv
     name = word
     var = word
 
