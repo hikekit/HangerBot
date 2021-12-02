@@ -1,4 +1,4 @@
-name: zb-cailapub
+name: hangerGame
 
 entryPoint: main.sc
 
@@ -14,3 +14,9 @@ sts:
 
 caila:
     noMatchThreshold: 0.2
+    
+injector:
+    slotfilling:
+        maxSlotRetries: 2
+        stopOnAnyIntent: true
+        stopOnAnyIntentThreshold: 0.2
